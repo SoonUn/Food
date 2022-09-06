@@ -410,7 +410,7 @@ window.addEventListener('DOMContentLoaded', function () {
   slider.append(indicators);
 
   for (let i = 0; i < slides.length; i++) {
-    const dot = this.document.createElement('li');
+    const dot = document.createElement('li');
     dot.setAttribute('data-slide-to', i + 1);
     dot.style.cssText = `
             box-sizing: content-box;
